@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff092b0"
+    android:padding="30dp"
+    tools:context="com.example.ofran.funfacts.FunFactActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Did you know?"
+        android:textColor="@color/semi_transparent"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/factView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="71dp"
+        android:text="Do you know about Pyeonchang Olympic 2018 very well? Find out by clicking the button!"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/nextFact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/factView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/factView"
+        android:background="@android:color/white"
+        android:text="Next Fact!"
+        android:textColor="#fff092b0" />
+
+</RelativeLayout>
